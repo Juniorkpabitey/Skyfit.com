@@ -21,8 +21,10 @@ const Navbar = () => {
         <ul className='hidden md:flex gap-7 text-white items-center'>
           <li><a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a></li>
           <li><a href="#About" className='cursor-pointer hover:text-gray-400'>About</a></li>
+          <li><a href="#Community" className='cursor-pointer hover:text-gray-400'>Community</a></li>
           <li><a href="#Founder" className='cursor-pointer hover:text-gray-400'>Founder</a></li>
           <li><a href="#Contact" className='cursor-pointer hover:text-gray-400'>Contact</a></li>
+
 
           <li className='flex items-center gap-3'>
             {/*---<a href="#Contact" className='cursor-pointer hover:text-gray-400'>Contact</a>*/}
@@ -50,8 +52,10 @@ const Navbar = () => {
           </div>
           <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
           <a onClick={()=> setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
-          <a onClick={()=> setShowMobileMenu(false)} href="#Founder" className='px-4 py-2 rounded-full inline-block'>Founder</a>
           <a onClick={()=> setShowMobileMenu(false)} href="#Community" className='px-4 py-2 rounded-full inline-block'>Community</a>
+          <a onClick={()=> setShowMobileMenu(false)} href="#Founder" className='px-4 py-2 rounded-full inline-block'>Founder</a>
+          <a onClick={()=> setShowMobileMenu(false)} href="#Contact" className='px-4 py-2 rounded-full inline-block'>Contact</a>
+
 
         </ul>
       </div>
