@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'; // Import Framer Motion
 const Header = () => {
   return (
     <div
-      className="min-h-screen mb-4 bg-cover bg-centre flex items-center w-full overflow-hidden"
+      className="min-h-screen bg-cover bg-centre flex items-center w-full overflow-hidden"
       style={{ backgroundImage: "url('/header_img.png')" }}
       id="Header"
     >
