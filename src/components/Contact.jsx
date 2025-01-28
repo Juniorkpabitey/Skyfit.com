@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
 
           <h2 className="text-2xl font-bold mt-8">Connect with us on all socials</h2>
-          <div className="flex space-x-4 text-2xl">
+          <div className="flex space-x-4 text-2xl py-5">
             <a href="#" className="text-gray-400 hover:text-white">
               <i className="fab fa-linkedin"></i>
             </a>
